@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>multicore_blinky_m0sub</name>
+	<comment></comment>
+	<projects>
+		<project>lpc_chip_43xx_m0</project>
+		<project>lpc_board_nxp_lpclink2_4370_m0</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.genmakebuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.ScannerConfigBuilder</name>
+			<triggers>full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>readme.txt</name>
+			<type>1</type>
+			<locationURI>PARENT-2-WORKSPACE_LOC/examples_43xx_18xx/multicore_blinky_m0/readme.txt</locationURI>
+		</link>
+		<link>
+			<name>inc</name>
+			<type>2</type>
+			<locationURI>PARENT-2-WORKSPACE_LOC/examples_43xx_18xx/multicore_blinky_m0/inc</locationURI>
+		</link>
+		<link>
+			<name>src/multicore_blinky.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-WORKSPACE_LOC/examples_43xx_18xx/multicore_blinky_m0/src/blinky_m0.c</locationURI>
+		</link>
+		<link>
+			<name>multicore_common</name>
+			<type>2</type>
+			<locationURI>PARENT-2-WORKSPACE_LOC/examples_43xx_18xx/multicore_common</locationURI>
+		</link>
+		<link>
+			<name>src/cr_startup_lpc43xx-m0sub.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-WORKSPACE_LOC/chip_43xx_18xx/startup/cr_startup_lpc43xx-m0sub.c</locationURI>
+		</link>
+		<link>
+			<name>src/sysinit.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-WORKSPACE_LOC/chip_43xx_18xx/startup/sysinit.c</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
